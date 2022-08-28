@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import ListContainer from '../ListContainer'
-import ListItem from '../ListItem'
+import ListContainer from './ListContainer'
+import ListItem from './ListItem'
 import Axios from 'axios'
 import emojiRegex from 'emoji-regex'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box } from '@mui/material'
 
-function EmojiBullet(props) {
+export default function EmojiBullet(props) {
   const { emoji, text } = props
 
   return (
@@ -24,5 +24,3 @@ function EmojiBullet(props) {
     </Box>
   )
 }
-
-export default EmojiBullet

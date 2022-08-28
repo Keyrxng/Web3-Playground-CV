@@ -1,11 +1,12 @@
 import React from 'react'
-import Style from '../styles/Home.module.scss'
+import Style from './Home.module.scss'
 import me from '../../img/bck.png'
 import classNames from 'classnames'
 import EmojiBullet from './EmojiBullet'
 import { Box, Button } from '@mui/material'
 import { info } from '../../info/Info'
 import { ConnectButton } from '@web3uikit/web3'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <Box
         className={classNames(Style.avatar, Style.shadowed)}
         style={{ background: info.gradient }}
-        component={'img'}
+        component={'Image'}
         src={me}
         width={{ xs: '35vh', md: '40vh' }}
         height={{ xs: '35vh', md: '40vh' }}
@@ -28,7 +29,7 @@ export default function Home() {
         p={'0.75rem'}
         mb={{ xs: '1rem', sm: 0 }}
         mr={{ xs: 0, md: '2rem' }}
-      />
+      ></Box>
       <Box>
         <h1 className="font-bold text-3xl">
           Hi, I'm{' '}
@@ -46,7 +47,7 @@ export default function Home() {
         <h2 className="font-bold text-lg">I'm {info.position}.</h2>
         <Box component={'ul'} p={'0.8rem'}>
           {info.miniBio.map((bio, index) => (
-            <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
+            <EmojiBullet key={index} text={bio.text} />
           ))}
         </Box>
         <Box

@@ -1,0 +1,37 @@
+{
+  "name": "web3-playground-cv",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@iconify/react": "^3.2.2",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/material": "^5.10.2",
+    "@mui/x-data-grid": "^5.16.0",
+    "@web3uikit/core": "^0.1.6",
+    "@web3uikit/web3": "^0.1.6",
+    "axios": "^0.27.2",
+    "ethers": "^5.7.0",
+    "magic-sdk": "^9.0.0",
+    "moralis": "^2.1.1",
+    "next": "12.2.5",
+    "next-auth": "^4.10.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-moralis": "^1.4.1",
+    "sass": "^1.54.5",
+    "sweetalert": "^2.1.2",
+    "wagmi": "^0.6.4"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  }
+}

@@ -1,0 +1,68 @@
+[
+	{
+		"date": "07-14-2022",
+		"title": "Came out from hiding",
+		"description": "Decided to put myself out there more via socials as I lack any form of social presence. I hope you've found your way here as a result of that!",
+		"icon": "feather:crosshair"
+	},
+	{
+		"date": "05-14-2022",
+		"title": "Forging with Foundry",
+		"description": "Began a rent-manager while learning the Foundry (Solidity-only test suite)",
+		"icon": "feather:sun"
+	},
+	{
+		"date": "04-14-2022",
+		"title": "Built A Token Burner",
+		"description": "Handles the disposing of address balances of demo/test tokens in a very efficient way. /w UI.",
+		"icon": "feather:target"
+	},
+	{
+		"date": "03-14-2022",
+		"title": "Wrote custom ERC contracts",
+		"description": "From forking with little-change to bespoke custom NFT and token functionality",
+		"icon": "feather:zap"
+	},
+	{
+		"date": "02-14-2022",
+		"title": "Setup ENS with DNS",
+		"description": "Obtained an ENS and binded the ENS protocol with traditional DNS to faciliate a web3 authToken/cookie token for a Snapshot space",
+		"icon": "feather:tv"
+	},
+	{
+		"date": "10-01-2021",
+		"title": "Drank the Coolaid",
+		"description": "Absorbed as much EVM related information as I could that I could finally put to use!",
+		"icon": "feather:terminal"
+	},
+	{
+		"date": "06-15-2021",
+		"title": "Graduated University!",
+		"description": "Successfully completed my HNC in Software Development!",
+		"icon": "feather:award"
+	},
+	{
+		"date": "02-15-2020",
+		"title": "Started learning to code",
+		"description": "At this point I started to really pivot my career choice. Returned to college for a HNC.",
+		"icon": "feather:terminal"
+	},
+	{
+		"date": "07-08-2020",
+		"title": "Completed my apprenticeship!",
+		"description": "Served my time and became fully qualified.",
+		"icon": "feather:award"
+	},
+	{
+		"date": "02-15-2017",
+		"title": "Began Apprenticeship",
+		"description": "Began an engineering appreticeship",
+		"icon": "feather:tool"
+	},
+	{
+		"date": "04-02-1998",
+		"title": "Birthday!",
+		"description": "I didn't sign up for this shit but I'm making the most of it!",
+		"icon": "feather:gift"
+	}
+]
